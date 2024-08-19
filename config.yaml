@@ -1,0 +1,21 @@
+defaults:
+  - _self_
+  - model: resnet  
+
+
+optimizer: sgd
+learning_rate: 0.001
+num_epochs: 50
+batch_size: 256
+iterations: 2500
+
+target_iter:
+  - 1
+  - 40
+  - 1200
+  - 2400
+
+epochs_for_activations:
+  - 1
+  - 2
+  - 3
