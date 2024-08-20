@@ -144,7 +144,7 @@ def main(folder1_path, folder2_path, kernel_type='linear', sigma_frac=0.4):
     plt.show()
 
 if __name__ == '__main__':
-    folder1_path = "dp_conv_activations_for_epoch_1"
-    folder2_path = "ndp_conv_activations_for_epoch_1"
+    folder1_path = " "
+    folder2_path = " "
 
     main(folder1_path, folder2_path)
